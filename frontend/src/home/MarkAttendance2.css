@@ -1,0 +1,152 @@
+.parent {
+    background-image: url("E:\Flexi Project\student-management\frontend\public\images\gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.div-name {
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #4b6cb7;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.first-letter {
+    color: white;
+    font-size: 30px;
+}
+.name-displayy {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.name-parent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 12px;
+}
+.full-name {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.branch {
+    padding: 0;
+    color: gray;
+}
+
+.cgpa {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+}
+    
+
+.attendance {
+    margin: 0 12px;
+    margin-top: 60px;
+}
+
+.attend-text {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 7px;
+
+}
+
+.att-status {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.present {
+    background-color: #C4E0E5;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.absent {
+    background-color: #C4E0E5;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ec-ml {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 50px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.extra {
+    background-color: #C4E0E5;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.ml {
+    background-color: #C4E0E5;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.submit {
+    padding: 15px;
+    background-color: #00c6ff;
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+.home-icon {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height:30px;
+    position: fixed; /* Position the element relative to the viewport */
+    top: 26px; /* Adjust as needed to position it from the top */
+    left: 20px; /* Adjust as needed to position it from the right */
+    z-index: 999;
+}
+
+.home-icon img {
+    width: 30px;
+    height: 30px;
+}

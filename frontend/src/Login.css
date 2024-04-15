@@ -1,0 +1,86 @@
+/* Login.css */
+
+/* Body styling */
+.div-wrapper {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url("login-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling */
+  .login-container {
+    max-width: 450px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.259);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading styling */
+  .login-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+.login-text {
+    margin-top: 25px;
+}
+
+.login-logo {
+    position: absolute;
+    margin-top: -570px;
+    left: 20px; /* Adjust as needed */
+    width: 250px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+
+  /* Input field styling */
+  .login-input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #013a76;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styling */
+  .login-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

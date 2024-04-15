@@ -1,0 +1,74 @@
+
+.departments-container {
+    margin: 50px auto;
+    max-width: 1450px; /* Adjust the max-width to center-align and widen the cards */
+    padding: 20px;
+    background: linear-gradient(rgb(181, 217, 255),rgb(195, 249, 195));
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.departments-header {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.departments-title {
+    padding: 10px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+.institute-title {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #555;
+}
+  
+.departments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Adjusted width */
+    grid-gap: 20px;
+    justify-content: center; /* Center-align the grid */
+}
+  
+.department-card {
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Widen the cards */
+}
+  
+.department-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.department-description {
+    font-size: 16px;
+    color: #666; 
+}
+
+.home-icon-criteriaa {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height:30px;
+    top: 50px; /* Adjust as needed to position it from the top */
+    left: 35px; /* Adjust as needed to position it from the right */
+    z-index: 999;
+    margin-right: 1400px;
+    margin-top: 2px;
+}
+.home-icon-criteriaa img {
+    max-width: 30px;
+    max-height: 30px;
+}
+

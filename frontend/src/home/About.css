@@ -1,0 +1,53 @@
+.about-container {
+    background-image: url("E:\Flexi Project\student-management\frontend\public\images\login-image.jpg");
+    padding: 20px;
+  }
+  
+  .about-header {
+    margin-top: -55px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-title {
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .institute-title {
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .about-card {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .about-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .about-description {
+    font-size: 16px;
+  }
+
